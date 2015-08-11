@@ -1229,7 +1229,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee8b36', end
 /* Custom, iPhone Retina */
 
 
+/* ============================== */
+/*		     Custom UI      	  */
+/* ============================== */
 
+.custom-blue{
+
+	background: #0081c9;
+}
 
 
 

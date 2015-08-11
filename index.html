@@ -52,15 +52,6 @@
 	
 	<div class="loader"><img src="img/loader.gif" alt="" /></div>
 	
-	<div hidden id="fb-root"></div>
-	<script>(function(d, s, id) {
-	  var js, fjs = d.getElementsByTagName(s)[0];
-	  if (d.getElementById(id)) return;
-	  js = d.createElement(s); js.id = id;
-	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=186374868104540&version=v2.0";
-	  fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));</script>
-	
     <header id="layout1-header">
         <nav class="navbar main-navigation-header top-nav navbar-fixed-top">
             <div class="container">
@@ -89,7 +80,7 @@
 	                    <li><a href="#layout1-z-layout1">About us</a></li>
 	                    <li><a href="#layout1-features">Features</a></li>
 	                    <li><a href="#layout1-testimonials">Testimonials</a></li>
-	                    <li><a href="#layout1-extras">Extras</a></li>
+	                    <li><a href="#layout1-extras">Our Services</a></li>
 	                    <li><a href="mailto:contact@passparyou.com" class="contact-link">Contact</a></li>
 	                    
 	                </ul>
@@ -205,6 +196,15 @@
 		</div>
 	</section>
 
+	<section id="layout1-partners" class="custom-blue">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6"><a href="http://www.wired.com/"><img src="img/testimonials/wired.png" class="brand" alt="" /></a></div>
+				<div class="col-sm-6"><a href="http://www.wired.com/"><img src="img/testimonials/wired.png" class="brand" alt="" /></a></div>
+			</div>
+		</div>
+	</section>	
+
 
 	<section id="layout1-extras">
 		
@@ -264,7 +264,7 @@
 	</section>
 	
 		
-	<div id="layout1-testimonials" class="parallax-scroll2">
+	<div id="layout1-testimonials" class="parallax-scroll2" hidden>
 	
 		<div class="overlay"></div>
 		
@@ -300,16 +300,9 @@
 		</div>
 	</div>
 	
-	<section id="layout1-partners">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-6"><a href="http://www.wired.com/"><img src="img/testimonials/wired.png" class="brand" alt="" /></a></div>
-				<div class="col-sm-6"><a href="http://www.wired.com/"><img src="img/testimonials/wired.png" class="brand" alt="" /></a></div>
-			</div>
-		</div>
-	</section>
+	
 
-	<section id="layout1-z-layout2">
+	<section id="layout1-z-layout2" hidden>
 		<div class="container">
 			<div class="row">
 				
@@ -325,6 +318,37 @@
 					
 				</div>
 				
+			</div>
+		</div>
+	</section>
+
+		<section id="layout1-partners">
+		<div class="container">
+			<div class="row">
+				
+				<div class="col-lg-offset-2 col-lg-2 col-sm-offset-2 col-sm-2 clearfix">
+					<a href="https://www.facebook.com/pages/Passparyou/1587843364828639?fref=ts">
+						<img src="img/social/facebook.png" class="img-responsive">
+					</a>
+				</div>
+
+				<div class="col-lg-2 col-sm-2 clearfix">
+					<a href="http://blog.passparyou.com/">
+						<img src="img/social/ghost.png" class="img-responsive">
+					</a>
+				</div>
+
+				<div class="col-lg-2 col-sm-2 clearfix">
+					<a href="https://twitter.com/passparyou">
+						<img src="img/social/twitter.png" class="img-responsive">
+					</a>
+				</div>
+				
+				<div class="col-lg-2 col-sm-2 text-wrapper">
+					<a href="https://gust.com/companies/passparyou">
+						<img src="img/social/gust.png" class="img-responsive">
+					</a>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -364,7 +388,7 @@
 	</section>
 	
 	
-	<section id="layout1-small-extras">
+	<section id="layout1-small-extras" hidden>
 		<div class="container">
 			<div class="row">
 				
@@ -428,18 +452,19 @@
 	</section>
 	
 	
-	<section id="layout1-prefooter">
+	<section id="layout1-prefooter" hidden>
     	<div class="container">
     		<div class="row">
     			
     			<div class="col-md-4 col-sm-12 about">
-	    			<a href="" title="instasent"><img src="img/logo-footer.png" alt="logo" /></a>
+	    			<a hidden href="" title="instasent"><img src="img/logo-footer.png" alt="logo" /></a>
 	    			<p hidden>Lorem ipsum dolor sit amet consectetur adipiscing elit un paramesot </p>
 	    			<ul class="social">
 	    				<li><a href="" title="facebook"><i class="fa fa-facebook"></i></a></li>
 	    				<li><a href="" title="twitter"><i class="fa fa-twitter"></i></a></li>
 	    			</ul>
     			</div>
+
     			
     			<div hidden class="col-md-2 col-sm-4 col-xs-6 col-md-offset-2 col-sm-offset-0 features">
 	    			<h4>Partners</h4>
@@ -458,7 +483,7 @@
 	    			</ul>	
     			</div>
     			
-    			<div class="col-md-2 col-sm-4 col-xs-6 company">
+    			<div hidden class="col-md-2 col-sm-4 col-xs-6 company">
 	    			<p class="contact">
 	    				<i class="fa fa-envelope-o"></i><a href="">Get in touch</a>
 	    			</p>
