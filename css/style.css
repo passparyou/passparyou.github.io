@@ -124,7 +124,7 @@ video {
 /* ============================== */
 #layout1-main-section {
 	background: url('../img/intro-img.jpg') no-repeat fixed center bottom;*/
-	/*background-size: cover;*/
+	background-size: cover;
 	position: relative;
 	text-align: center;
 	padding: 210px 0 170px;
