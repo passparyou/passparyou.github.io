@@ -169,10 +169,10 @@ video {
 
 #layout1-main-section .subscribe-form input{
 	color: #fff;
-	font-size: 20px;
+	font-size: 14px;
 	background: none;
 	height: 60px;
-	width: 400px;
+	width: 220px;
 	padding-left: 30px;
 	border-radius: 0;
 	border: none;
@@ -301,7 +301,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee8b36', end
 }
 
 #layout1-features .feature-item .number{
-	color: #052341;
+	color: #e87b33;
 }
 
 #layout1-features .feature-item p{
@@ -524,7 +524,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee8b36', end
 
 #layout1-partners{
 	padding: 45px 0;
-	background: #f8fafc;
 }
 
 #layout1-partners div{
@@ -1239,11 +1238,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee8b36', end
 	background: #0081c9;
 }
 
-.separator{
-	
-	background: #0081c9;
-	height: 2px;
-}
 
 
 
