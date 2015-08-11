@@ -123,7 +123,7 @@ video {
 /*		    main section  	      */
 /* ============================== */
 #layout1-main-section {
-	background: url('../img/main-bg.jpg') no-repeat fixed center bottom;
+	/*background: url('../img/main-bg.jpg') no-repeat fixed center bottom;*/
 	background-size: cover;
 	position: relative;
 	text-align: center;
@@ -169,10 +169,10 @@ video {
 
 #layout1-main-section .subscribe-form input{
 	color: #fff;
-	font-size: 14px;
+	font-size: 20px;
 	background: none;
 	height: 60px;
-	width: 220px;
+	width: 400px;
 	padding-left: 30px;
 	border-radius: 0;
 	border: none;
@@ -301,7 +301,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee8b36', end
 }
 
 #layout1-features .feature-item .number{
-	color: #e87b33;
+	color: #052341;
 }
 
 #layout1-features .feature-item p{
@@ -524,6 +524,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee8b36', end
 
 #layout1-partners{
 	padding: 45px 0;
+	background: #f8fafc;
 }
 
 #layout1-partners div{
@@ -1238,6 +1239,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee8b36', end
 	background: #0081c9;
 }
 
+.separator{
+	
+	background: #0081c9;
+	height: 2px;
+}
 
 
 
