@@ -154,20 +154,20 @@ video {
 	margin-top: 25px;
 }
 
-#layout1-main-section .subscribe-form{
+.subscribe-form{
 	width: 630px;
 	height: 64px;
 	border-radius: 4px;
 	margin-top: 65px;
 }
 
-#layout1-main-section .subscribe-form form{
+.subscribe-form form{
 	background-color: rgba(255,255,255,0.24);
 	padding: 2px;
 	border-radius: 4px;
 }
 
-#layout1-main-section .subscribe-form input{
+.subscribe-form input{
 	color: #fff;
 	font-size: 20px;
 	background: none;
@@ -179,7 +179,7 @@ video {
 	box-shadow: none;
 }
 
-#layout1-main-section .subscribe-form input:focus{
+.subscribe-form input:focus{
 	box-shadow: none;	
 }
 
@@ -187,7 +187,7 @@ video {
 	border-right: 1px solid rgba(255,255,255,0.15);
 }
 
-#layout1-main-section .subscribe-form button{
+.subscribe-form button{
 	color: #fff;
 	font-weight: 900;
 	font-size: 16px;
@@ -1238,6 +1238,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee8b36', end
 
 	background: #0081c9;
 }
+
+.custom-blue-op{
+
+	background: rgb(0, 129, 201, 0.24);
+}
+
 
 
 
