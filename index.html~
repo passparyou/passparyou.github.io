@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="google-site-verification" content="0q0rbxrjtRMjjF8-ESIuu16YUS6LPds9CkLC10u7hP0" />
+    <title>Passparyou</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/landing-page.css" rel="stylesheet">
+    <link href="css/testimonials.css" rel="stylesheet">
+
+    <!-- Animation with css -->
+    <link href="css/animate.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body >
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+        <div class="container topnav">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+                <div class="navbar-brand topnav" href="#page-top">
+                    <a style="margin-left: 35px; margin-top: 20px">Passparyou</a>
+                    <img class="logo" src="img/logo.png"></img> 
+                </div>
+
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#advantages">Our Services</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#description">Description</a>
+                    </li>
+                    <!--<li>
+                        <a class="page-scroll" href="#pricing">Pricing</a>
+                    </li>-->
+                    <li>
+                        <a class="page-scroll"  href="#subscribe">Keep in touch</a>
+                    </li>
+                    
+                     <li>
+                        <a href="mailto:contact@passparyou.com">Contact</a>
+                    </li>
+                     <li>
+                        <a class="page-scroll"  href="http://passparyou.com/feedbacks">Leave a comment!</a>
+                    </li>
+
+                    <!--<li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>-->
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+        <!-- Header -->
+        <div id="about" class="intro-header post">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="intro-message">
+                            <h1 >Your Hacker-proof digitaly identity</h1>
+                            <h3></h3>
+                            <hr class="intro-divider">
+                            <h2 >Stop worrying about password!<h2>
+                            <div class="text-center">
+                                <!--<a type="submit" class="btn btn-default page-scroll" href="#advantages">Find out More</a>
+                                -->
+                                <a type="submit" class="btn btn-xl page-scroll top30" href="#subscribe">Keep in touch</a>
+                            </div>
+
+                       </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- /.container -->
+
+        </div>
+        <!-- /.intro-header -->
+
+        <!-- Page Content -->
+        
+        <div class="container content-section-b post" id="advantages">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Our Services</h2>
+                    <hr class="intro-divider">
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-3x">
+                        <img class="img-responsive" src="img/identity.png" alt="">
+                    </span>
+                    <h4 class="service-heading">Digital Identity</h4>
+                    <p class="text-muted">Your data under Your control. <br>
+                    Passparyou creates a personal digital identity in <b>Blockchain's</b> decentralized network that absolutely no one is able to manipulate.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-3x">
+                        <img class="img-responsive" src="img/login.png" alt="">
+                    </span>
+                    <h4 class="service-heading">Automatic Login and Sign-up</h4>
+                    <p class="text-muted">
+                        We allow <b>friction-less</b> Login and Sign-up to your favourite sites. No more dull registration procedures or password headaches!  
+                    </p>
+                </div>
+                
+                 <div class="col-md-4">
+                    <span class="fa-stack fa-3x">
+                        <img class="img-responsive" src="img/api.png" alt="">
+                    </span>
+                    <h4 class="service-heading">Easy and reliable API</h4>
+                    <p class="text-muted">
+                        Integration to your website is as simple as sending <b>RESTful</b> requests! We take care of the rest. Clear and exhaustive documentation.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-section-b content-blue post">
+
+            <div class="container" id="description">
+                <div class="row">
+                    <div class="col-lg-5 col-sm-6">
+                        <div class="clearfix"></div>
+                        <h2 class="text-center section-heading">Security</h2>
+                        <div class="row text-center top40">
+                         <h4>Your data security is our <b>primary worry</b>. The use of Blockchain, supported by state-of-art encryption standard, provides you with the highest level of security. 
+                         </h4>
+                         <h4 class="top40">
+                         We are constantly auditing our systems to ensure data is never breached, and our identity verification system
+                         ensures noone can use your personal data to registrate or log in. 
+                        </h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-lg-offset-3 col-sm-7">
+                        <img class="img-responsive" src="img/structure-grey.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+            <!-- /.container -->
+
+        </div>
+        <!-- /.content-section-a -->
+
+        <div class="content-section-b post">
+
+            <div class="container">
+
+                <div class="row">
+                    <div class="row">
+                        <h2 class="text-center section-heading">Your identity on any device</h2>
+                        <img class="img-responsive center-block" src="img/device4.png" alt="">
+                    </div>
+                    <div class="row">
+                        <hr class="intro-divider">
+                        <h4 class="text-center">Screen size doesn't matter, instantaneous access is provided for any device</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- /.container -->
+
+        </div>
+        <!-- /.content-section-b -->
+
+         <div class="content-blue content-section-b post">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 text-center">
+                            <h2 class="section-heading">How it works</h2>
+                            <hr class="intro-divider">
+                        </div>
+                    </div>
+                    <ul class="timeline">
+                        <li>
+                          <div class="timeline-image"><img class="img-responsive" src="img/create-id.png" alt=""></div>
+                          <div class="timeline-panel">
+                            <div class="timeline-heading">
+                              <h4 class="timeline-title">Create your digital identity</h4>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="timeline-inverted">
+                          <div class="timeline-image"><img class="img-responsive" src="img/sign-up.png" alt=""></div>
+                          <div class="timeline-panel">
+                            <div class="timeline-heading">
+                              <h4 class="timeline-title">Signup to web sites without filling a single form</h4>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="timeline-image" ><img class="img-responsive img-circle" src="img/login-2.png" alt="" style=""></div>
+                          <div class="timeline-panel">
+                            <div class="timeline-heading">
+                              <h4 class="timeline-title">Get recognized! The website automatically authenticates you</h4>
+                            </div>
+                            <!--<div class="timeline-body">
+                              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>-->
+                            </div>
+                          </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        <div class="content-section-a post">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6 text-center">
+                        <div class="clearfix"></div>
+                        <h2 class="text-center section-heading">Blockchain</h2>
+                        <h4>The Blockchain is a transaction database shared by all nodes participating in a system based on the Bitcoin protocol.
+                        This is the main innovation introduced in the Bitcoin protocol. It guarantees that a single data added in this transaction
+                        database has to be confirmed by distributed node. Once confirmed, that data can't be modified, because all data subsequently added
+                        should be also modified in a consistent manner. That's something impossible.
+                        </h4>
+                    </div>
+                    <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                        <img class="img-responsive" src="img/blockchain-blue.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- /.container -->
+        </div>
+
+
+        <div id="testimonials" hidden>
+
+            <div class="content-section-a post">
+                <div class="row">
+                    <div class="col-md-12" data-wow-delay="0.2s">
+                        <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+                            <!-- Bottom Carousel Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#quote-carousel" data-slide-to="0" class="active"><img class="img-responsive " src="https://pbs.twimg.com/profile_images/532122775746400257/hzThkClL.jpeg" alt="">
+                                </li>
+                                <li data-target="#quote-carousel" data-slide-to="1"><img class="img-responsive" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/2/005/089/2d4/3644ac4.jpg" alt="">
+                                </li>
+                                <li data-target="#quote-carousel" data-slide-to="2"><img class="img-responsive" src="https://pbs.twimg.com/profile_images/419877879468396544/BJu2w6GZ.jpeg" alt="">
+                                </li>
+                                 <li data-target="#quote-carousel" data-slide-to="2"><img class="img-responsive" src="https://pbs.twimg.com/profile_images/419877879468396544/BJu2w6GZ.jpeg" alt="">
+                                </li>
+                            </ol>
+
+                            <!-- Carousel Slides / Quotes -->
+                            <div class="carousel-inner text-center">
+
+                                <!-- Quote 1 -->
+                                <div class="item active">
+                                    <blockquote>
+                                        <div class="row">
+                                            <div class="col-sm-8 col-sm-offset-2">
+
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. !</p>
+                                                <small>Massimo Sgrelli <br> Angel investor, Entrepreneur</small>
+                                            </div>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                                <!-- Quote 2 -->
+                                <div class="item">
+                                    <blockquote>
+                                        <div class="row">
+                                            <div class="col-sm-8 col-sm-offset-2">
+
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                                                <small>Franco Cimatti <br> President of Bitcoin Foundation Italia</small>
+                                            </div>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                                <!-- Quote 3 -->
+                                <div class="item">
+                                    <blockquote>
+                                        <div class="row">
+                                            <div class="col-sm-8 col-sm-offset-2">
+
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. .</p>
+                                                <small>Thomas Bertani <br> Bitcoin entrepreneur</small>
+                                            </div>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                                 <div class="item">
+                                    <blockquote>
+                                        <div class="row">
+                                            <div class="col-sm-8 col-sm-offset-2">
+
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. .</p>
+                                                <small>Thomas Bertani <br> Bitcoin entrepreneur</small>
+                                            </div>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+
+                            <!-- Carousel Buttons Next/Prev -->
+                            <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+                            <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+           
+
+                <!--<div class="row">
+                    <!--<div class="col-md-5">
+                        
+                    </div>
+                    <div class="col-md-2">
+                        <span class="fa-stack fa-3x">
+                            <img class="img-responsive" src="img/identity.png" alt="">
+                        </span>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row text-center top40">
+                            <h4>
+                                LOREM LOREM  
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <!--<div class="col-md-5">
+                        <div class="row text-center top40">
+                            <h4>
+                                LOREM LOREM  
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <span class="fa-stack fa-3x">
+                            <img class="img-responsive" src="img/identity.png" alt="">
+                        </span>
+                    </div>
+                    <div class="col-md-5">
+                    </div>
+                </div>
+
+                <div class="row">
+                   <!--<div class="col-md-5">
+                    </div>
+                    <div class="col-md-2">
+                        <span class="fa-stack fa-3x">
+                            <img class="img-responsive" src="img/identity.png" alt="">
+                        </span>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row text-center top40">
+                            <h4>
+                            LOREM LOREM  
+                            </h4>
+                        </div>
+                    </div>
+                </div>-->
+
+
+                <!--
+        <div class="container content-section-b post" id="pricing">
+            <div class="row">
+                <h2 class="text-center section-heading">Pricing</h2>
+                <hr class="intro-divider">
+
+                <div class="col-sm-6 col-md-3 col-lg-3 col-md-offset-3">
+                    
+                    <div class="panel price panel-white">
+                        <div class="panel-heading  text-center">
+                            <h3 class="top10">Free Plan</h3>
+                        </div>
+                        <div class="panel-body text-center">
+                            <p class="lead" style="font-size:40px"><strong>$0/month</strong></p>
+                        </div>
+                        <ul class="list-group list-group-flush text-center">
+                            <li class="list-group-item"><i class="icon-ok text-danger"></i> Personal use</li>
+                            <li class="list-group-item"><i class="icon-ok text-danger"></i> Up to 5 subscription</li>
+                            <li class="list-group-item"><i class="icon-ok text-danger"></i> 24/7 support</li>
+                        </ul>
+                        <div class="panel-footer">
+                            <button class="btn-c btn-block page-scroll" id="btn-free" href="#subscribe">Get it now</button>
+                        </div>
+                    </div>
+
+                </div>
+
+                 <div class="col-sm-6 col-md-3 col-lg-3">
+                    
+                    <div class="panel price panel-blue">
+                        <div class="panel-heading  text-center">
+                        <h3 class="top10">Premium Plan</h3>
+                        </div>
+                        <div class="panel-body text-center">
+                            <p class="lead" style="font-size:40px"><strong>$0.99/month</strong></p>
+                        </div>
+                        <ul class="list-group list-group-flush text-center">
+                            <li class="list-group-item"><i class="icon-ok text-danger"></i> Personal use</li>
+                            <li class="list-group-item"><i class="icon-ok text-danger"></i> Unlimited subscription</li>
+                            <li class="list-group-item"><i class="icon-ok text-danger"></i> 24/7 support</li>
+                        </ul>
+                        <div class="panel-footer">
+                            <button class="btn-c btn-block page-scroll" id="btn-premium" href="#subscribe">Get it now</button>
+
+                        </div>
+                    </div>
+                             
+                </div>
+                
+            </div>
+        </div>
+        <!-- /.content-section-a -->
+
+       
+
+        <div id="contact" class="banner post">
+                <h2 class="text-center" id="subscribe">Curious?</h2>
+
+            <div class="container">
+
+                <div class="col-lg-7 col-md-offset-3" id="button-subscribe">
+                    <button id="subscribe-beta" type="submit" class="btn-c">Become a beta tester</button>
+                    OR
+                    <button id="subscribe-news" type="submit" class="btn-c">subscribe to newsletter</button>
+                </div>   
+
+                <div class="row text-center" id="subscribe-box">
+                    <div class="col-lg-6 col-md-offset-3">
+                        <form method="post" id="subForm" data-toggle="validator" role="form" class="off">
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="fieldEmail" placeholder="Email" data-error="That email address is invalid" required>
+                                <div id="errorBlock" class="help-block with-errors"></div>
+                            </div>
+
+                              <div class="form-group center-block">
+                                <button id="mc-embedded-subscribe" type="submit" class="btn-c">Keep in touch</button>
+                              </div>                   
+                        </form>
+                    </div>
+                </div>
+
+                <div id="thanks-box" class="row text-center col-lg-12">
+                    <h2>Thank You for Subscription!</h2>
+                </div>
+
+            </div>
+            <!-- /.container -->
+
+        </div>
+        <!-- /.banner -->
+
+
+        <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <p class="copyright text-muted small">Copyright &copy; 
+
+
+
+Passparyou 2015. All Rights Reserved</p>
+                </div>
+                <div class="col-md-7 center-block">
+                    <ul class="list-inline social-buttons">
+                        <!--<li><a href="https://twitter.com/Passparyounews"><i class="fa fa-twitter top10 left12"></i></a>
+                        </li>-->
+                        <li><a href="https://www.facebook.com/pages/Passparyou/1587843364828639?fref=ts"><i class="fa fa-facebook top10 left13"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <!--<div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="#">Privacy Policy</a>
+                        </li>
+                        <li><a href="#">Terms of Use</a>
+                        </li>
+                    </ul>
+                </div>-->
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Landing Core JavaScript -->
+    <script src="js/landing-page.js"></script>
+
+    <script src="js/validator.js"></script>
+    <script src="js/login.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+
+    <script src="js/jquery.viewportchecker.js"></script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-61484415-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+
+</body>
+
+</html>
